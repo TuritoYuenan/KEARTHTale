@@ -1,7 +1,0 @@
-Id ,State    ,Full Name                     ,Form           ,Color   ,Capital  ,Culture ,Type     ,Expansionism ,Cells ,Burgs ,Area km2 ,Total Population ,Rural Population ,Urban Population
-5  ,Βορειος  ,Βορειος Federation            ,Federation     ,#a01ef0 ,ΑΛΥΜΠΙΑ  ,Vorei   ,Generic  ,4.1          ,867   ,20    ,6968000  ,10141439         ,8999179          ,1142260
-2  ,Monster  ,United Kingdom of the Monster ,United Kingdom ,#cc6600 ,OLD HOME ,Ebott   ,Highland ,4            ,747   ,16    ,6636096  ,9334118          ,8538678          ,795440
-3  ,Homa     ,Homan Empire                  ,Empire         ,#009966 ,SAPIE    ,Homan   ,Naval    ,4.7          ,605   ,19    ,5034624  ,7290686          ,6526966          ,763720
-1  ,Mường    ,Mường Union                   ,Union          ,#cc1818 ,SƠN THÀÑ ,Mường   ,Highland ,4.5          ,523   ,13    ,4534976  ,5865479          ,5598467          ,267012
-6  ,Тога     ,Republic of Тога              ,Republic       ,#ffcc00 ,ХИРОНИКУ ,Togan   ,Naval    ,4.4          ,346   ,14    ,2573120  ,3499404          ,3069776          ,429628
-8  ,Alnawa   ,Alnawan Emirate               ,Emirate        ,#181818 ,YARABAH  ,Alnawa  ,River    ,0.5          ,200   ,8     ,1620032  ,2279841          ,2062593          ,217248
