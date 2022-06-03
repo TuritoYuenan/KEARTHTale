@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8"><title>Planet KEARTH</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="icon" href="resources/globeFavicon.png">
+<html lang="en"><head>
+	<meta charset="UTF-8"><title>Planet Pratero</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="common.css"><link rel="icon" href="svg/globe.svg"><style>
+		#intro, #board {margin: auto; width: 70%;}
+		#board {display: flex; flex-wrap: wrap; justify-content: center; gap: .5em;}
+		#board a {padding: 1em; background: #3B4252; border-radius: 1em;}
+		header iframe {width: 5em; height: 5em; border: none; border-radius: 50%;}
+
+		@media (max-width: 1000px) {#intro, #board {width: 90%;}}
+	</style>
 </head><body>
-	
-</body>
-</html>
+	<header>
+		<iframe src="globe.html"></iframe>
+		<h1>Planet Pratero</h1>
+		<p>A fictional planet by Turito</p>
+	</header><main>
+		<h2>Introduction</h2><section id="intro">
+		<p><b>Pratero</b> (formerly '<b>KEARTH</b>') is a fictional planet created by
+		Turito&nbsp;Yuenan&nbsp;(me), originally for an Undertale&nbsp;AU called KEARTHTale.
+		The KEARTHTale&nbsp;AU dated back to mid 2019, with the intention to extend Undertale's
+		worldbuilding.</p><p>Before June 2022, KEARTHTale and planet&nbsp;KEARTH were separate works
+		when they are merged and renamed to planetPratero the worldbuilding FanFiction</p></section>
+		<h2>Contents</h2>
+		<section id="board">
+			<a href="">Civilization</a>
+			<a href="">Languages</a>
+			<a href="">Countries</a>
+			<a href="">Timeline</a>
+			<a href="">Characters</a>
+			<a href=""><b>Read the FanFiction!</b></a>
+		</section>
+	</main><footer appml-include-html="footer.htm"></footer>
+	<script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script>
+</body></html>

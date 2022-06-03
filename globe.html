@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8"><title>Globe of Planet Pratero</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="svg/globe.svg"><style>
+		body {margin: 0;} * {overflow: hidden;}
+	</style>
+</head><body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+	<script>
+	let img; function setup() {
+		img = loadImage('map/mapPratero.png');
+		createCanvas(window.innerWidth, window.innerHeight, WEBGL);
+	}
+	function draw() {
+		translate(0,0); noStroke(); texture(img);
+		rotateY(frameCount*1e-2)
+		sphere((min(width, height) / 2)*.8);
+	}
+	</script>
+</body></html>

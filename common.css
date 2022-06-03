@@ -1,0 +1,21 @@
+:root {
+	/* Arctic Ice Studio's Nord color palette */
+	--nord00: #2e3440; --nord01: #3b4252; --nord02: #434c5e; --nord03: #4c566a;
+	--nord04: #d8dee9; --nord05: #e5e9f0; --nord06: #eceff4; --nord07: #8fbcbb;
+	--nord08: #88c0d0; --nord09: #81a1c1; --nord10: #5e81ac;	--nord11: #bf616a;
+	--nord12: #d08770; --nord13: #ebcb8b; --nord14: #a3be8c; --nord15: #b48ead;
+	/* Turito Yuenan's Foruni color palette */
+	--frnBlk: #181818; --frnRed: #CC1818; --frnGol: #FFCC00;
+	--frnOrg: #FF6600; --frnGrn: #009966; --frnBlu: #0066CC;
+}
+
+body {
+	margin: 0; font: xx-large Segoe UI, sans-serif; color: var(--nord04);
+	background: url(svg/globeArt.svg) fixed center no-repeat; background-size: cover;
+}
+
+h1, h2, h3, p {margin: 14px;} a {text-decoration: none; color: inherit;}
+header, main, footer {padding: 1em; text-align: center;}
+header, footer {background: #2E344080;}
+main {background: var(--nord00);}
+footer {font-size: medium;}
