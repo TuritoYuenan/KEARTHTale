@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="1800" height="900" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<style type="text/css">
-	#states{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	#provs{fill:none;stroke:#000000;stroke-miterlimit:10;}
-</style>
-<rect id="frame" width="1800" height="900" fill="#332211" fill-opacity="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1800 900" id="init">
+<rect id="frame" width="1800" height="900" fill="none"/>
 <g id="states">
 	<polyline points="944,543 937,553 937,555 942,557 946,557 954,563 946,573 941,588 946,591 949,596 943,602 938,610 937,610 923,619"/>
 	<polyline points="1065,119 1063,127 1056,134 1057,136 1055,140 1055,147 1068,156 1067,159 1070,164 1064,178 

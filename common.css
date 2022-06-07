@@ -7,6 +7,11 @@
 	/* Turito Yuenan's Foruni color palette */
 	--frnBlk: #181818; --frnRed: #CC1818; --frnGol: #FFCC00;
 	--frnOrg: #FF6600; --frnGrn: #009966; --frnBlu: #0066CC;
+	/* Flat color palette from https://gogh-co.github.io/Gogh */
+	--flat00: #2c3e50; --flat01: #c0392b; --flat02: #27ae60; --flat03: #f39c12;
+	--flat04: #2980b9; --flat05: #8e44ad; --flat06: #16a085; --flat07: #bdc3c7;
+	--flat08: #34495e; --flat09: #e74c3c; --flat10: #2ecc71; --flat11: #f1c40f;
+	--flat12: #3498db; --flat13: #9b59b6; --flat14: #2aa198; --flat15: #ecf0f1;
 }
 
 body {
@@ -14,8 +19,9 @@ body {
 	background: url(svg/globeArt.svg) fixed center no-repeat; background-size: cover;
 }
 
-h1, h2, h3, p {margin: 14px;} a {text-decoration: none; color: inherit;}
+h1, h2, h3, p, ol, ul {margin: 14px;} a {text-decoration: none; color: inherit;}
 header, main, footer {padding: 1em; text-align: center;}
 header, footer {background: #2E344080;}
+header iframe {width: 5em; height: 5em; border: none; border-radius: 50%;}
 main {background: var(--nord00);}
 footer {font-size: medium;}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8"><title>Countries of planet Pratero</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="../common.css"><link rel="icon" href="../svg/globe.svg"><style>
+		text {fill: white; font-family: Arial}
+		#capital {text-transform: uppercase; font-size:20pt;}
+		#burgs {text-transform: capitalize; font-size:14pt;}
+
+		#provs {fill-rule: evenodd; stroke: black; stroke-width: 1;}
+		#states, #provs {fill: none; stroke: black;}
+		#states {stroke-width:2}
+	</style>
+</head><body>
+	<header>
+		<h1>Countries</h1>
+		<p>Political entities on planet Pratero</p>
+	</header><main>
+		<svg viewBox="0 0 1800 900">
+			<use href="../map/layerBase.svg#init"/>
+			<use href="../map/layerStates.svg#init"/>
+			<use href="../map/layerBorders.svg#init"/>
+		</svg>
+	</main><footer appml-include-html="../footer.htm"></footer>
+	<script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script>
+</body></html>
